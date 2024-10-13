@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    div{
+        height: 500px;
+        border: 1px solidred;
+        width: 500px;
+        background-color: aquamarine;
+        margin: 100px auto;
+        transition-duration: 5s;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    img:hover{
+        transform: scale(1.5);
+    }
+    img{
+        transition-duration: 5s;
+    }
+    div:hover{
+        transform: rotateX(50deg);
+    }
+    
+    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+      <div><img alt="" class="hCL kVc L4E MIw" fetchpriority="high" loading="auto" src="https://i.pinimg.com/originals/80/5d/92/805d9290bf80860153c6804cc0ed2d3a.gif"></div>
+        
+    
+
+    
+</body>
+</html>
