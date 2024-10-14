@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content : "world";
+        }
+        a::after{
+            content:  "[" attr(title) "]" ;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <a href="https://www.google.com" title="visit google">GOOGLE</a>
+    <a href="https://www.youtube.com">YOUTUBE</a>
+    <a href="https://www.facebook.com">FACEBOOK</a>
+    <a href="https://www.amazon.com" title="visit amazon">AMAZON</a>
+</body>
+</html>
